@@ -6,7 +6,9 @@ This is a Python based simulation of a European roulette game using Monte Carlo 
 
 ## Key Concepts
 
+- Monte Carlo Simulations
 - RNG
+- Emperical vs. Theoretical Probability
 - Statistical analysis of probabilities as the sample size increases (Law of Large Numbers)
 - Graphing convergence
 
