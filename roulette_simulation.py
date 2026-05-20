@@ -25,6 +25,7 @@ def main():
     TRIALS = 1_000_000
     STEPS = 1_000
     wins = 0
+    losses = 0
     prob_y = []
 
     for trial in range(1, TRIALS + 1):
@@ -32,12 +33,14 @@ def main():
 
         if actual == BET:
             wins += 1
+        else:
+            losses += 1
 
         if trial % STEPS == 0:
             prob_y.append(wins / trial)
 
         win_prob = wins / TRIALS
-        loss_prob = 1 - win_prob
+        loss_prob = losses / TRIALS
 
     prob_x = np.linspace(0, TRIALS, 1000)
 
