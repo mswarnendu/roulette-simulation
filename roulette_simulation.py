@@ -7,7 +7,14 @@ Convergence Test of European Style Roulette
 
 Setup:
     - There are 37 possible pockets, with numbers between 0-36 (inclusive)
-    - Every 
+    - Every number can be a color red, green, or black
+
+Inputs:
+    - Betting number: what number you want to bet on every game
+
+Outputs:
+    - House Advantage: How much advantage the house (opposing player) has in the roulette game.
+    - Convergence Graph: Shows how the probability of a win evolves over an increased sample size.
 
 """
 
